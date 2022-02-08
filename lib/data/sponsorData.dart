@@ -46,6 +46,18 @@ Map<String, List<Map<String, String>>> sponsorData = {
           "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fsponsors%2Fsponsor_gmc.jpg?alt=media&token=788ffc23-6a49-411d-b184-a07cbd71a5a6",
       "link": "https://givemycertificate.com/",
     },
+    {
+      "name": "Taskade",
+      "image":
+          "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fsponsors%2Fsponsor_taskade.jpg?alt=media&token=b0ae16c9-809f-49f7-88ac-4ec19fe11152",
+      "link": "https://www.taskade.com/",
+    },
+    {
+      "name": "Jet Brains",
+      "image":
+          "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fsponsors%2Fsponsor_jetbrains.jpg?alt=media&token=60df19a2-53b2-43e4-9fc9-d29406cb9847",
+      "link": "https://www.jetbrains.com/",
+    },
   ],
   "mediaAndOutreach": [
     {
