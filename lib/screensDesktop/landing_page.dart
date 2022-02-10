@@ -65,7 +65,7 @@ class LandingPageContent extends StatelessWidget {
                         ),
                       ),
                     ),
-                    const SizedBox(
+                    SizedBox(
                       height: 50,
                       width: 312,
                       child: DevfolioButton(),

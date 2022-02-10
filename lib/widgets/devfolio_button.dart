@@ -1,5 +1,7 @@
+import 'dart:ui' as ui;
+
 import 'package:flutter/material.dart';
-// import 'package:universal_html/html.dart';
+import 'package:universal_html/html.dart';
 
 class DevfolioButton extends StatefulWidget {
   const DevfolioButton({Key? key}) : super(key: key);
@@ -11,37 +13,36 @@ class DevfolioButton extends StatefulWidget {
 class _DevfolioButtonState extends State<DevfolioButton> {
   @override
   void initState() {
+    final _scriptElement = ScriptElement();
+    _scriptElement.async = true;
+    _scriptElement.defer = true;
+    _scriptElement.src = 'https://apply.devfolio.co/v2/sdk.js';
+    final _divElement = DivElement();
+    _divElement.classes = ['apply-button'];
+    _divElement.dataset = {
+      'hackathon-slug': "vihaan4",
+      'button-theme': "dark-inverted"
+    };
+    _divElement.style.height = '44px';
+    _divElement.style.width = '312px';
+    _divElement.style.padding = '0';
+    _divElement.style.margin = '0';
+    final _containerElement = DivElement();
+    _containerElement.classes = ['container'];
+    _containerElement.children = [
+      _scriptElement,
+      _divElement,
+    ];
+
     // ignore: undefined_prefixed_name
-    // final _scriptElement = ScriptElement();
-    // _scriptElement.async = true;
-    // _scriptElement.defer = true;
-    // _scriptElement.src = 'https://apply.devfolio.co/v2/sdk.js';
-    // final _divElement = DivElement();
-    // _divElement.classes = ['apply-button'];
-    // _divElement.dataset = {
-    //   'hackathon-slug': "vihaan5",
-    //   'button-theme': "dark-inverted"
-    // };
-    // _divElement.style.height = '44px';
-    // _divElement.style.width = '312px';
-    // _divElement.style.padding = '0';
-    // _divElement.style.margin = '0';
-    // final _containerElement = DivElement();
-    // _containerElement.classes = ['container'];
-    // _containerElement.children = [
-    //   _scriptElement,
-    //   _divElement,
-    // ];
-    //
-    // // ui.platformViewRegistry
-    // //     .registerViewFactory('bodyElement', (int viewID) => _containerElement);
+    ui.platformViewRegistry
+        .registerViewFactory('bodyElement', (int viewID) => _containerElement);
 
     super.initState();
   }
 
   @override
   Widget build(BuildContext context) {
-    // return HtmlElementView(viewType: 'bodyElement');
-    return Container();
+    return HtmlElementView(viewType: 'bodyElement');
   }
 }
