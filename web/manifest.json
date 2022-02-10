@@ -1,11 +1,11 @@
 {
-    "name": "vihaan_new",
-    "short_name": "vihaan_new",
+    "name": "Vihaan #5.0",
+    "short_name": "Vihaan #5.0",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Vihaan #5.0 by IEEE DTU",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
