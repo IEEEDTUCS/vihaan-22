@@ -24,16 +24,16 @@ List<Map<String, String>> ieeeDtuMembers = [
     "name": "Sonal Bera",
     "position": "Chairperson\nIEEE DTU CS",
     "image":
-        "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fteam%2Fteam_shubham.jpg?alt=media&token=e60080da-a0b7-4fce-9bee-3f01620de9d2",
+        "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fleads%2FsonalBera.jpg?alt=media&token=37e6158e-3861-453c-99d1-830457bd9299",
     "linkedIn": "https://www.linkedin.com/in/shubham-kumar-83b39a168/",
   },
-  {
-    "name": "Kirti Dabas",
-    "position": "Vice chairperson CS chapter -IEEE DTU",
-    "image":
-        "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fleads%2FIMG-20210315-WA0008%20-%20Kirti%20Dabas.jpg?alt=media&token=24405911-e045-4ceb-a538-a4712f18acbe",
-    "linkedIn": "https://www.linkedin.com/in/kirti-dabas-a11159179"
-  },
+  // {
+  //   "name": "Kirti Dabas",
+  //   "position": "Vice chairperson CS chapter -IEEE DTU",
+  //   "image":
+  //       "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fleads%2FIMG-20210315-WA0008%20-%20Kirti%20Dabas.jpg?alt=media&token=24405911-e045-4ceb-a538-a4712f18acbe",
+  //   "linkedIn": "https://www.linkedin.com/in/kirti-dabas-a11159179"
+  // },
   {
     "name": "Shivam Shaurya",
     "position": "Chairperson PES-IAS",
@@ -41,20 +41,20 @@ List<Map<String, String>> ieeeDtuMembers = [
         "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fleads%2FScreenshot%202022-02-08%20at%2011.44.42%20PM%20-%202K18_EE_194%20SHIVAM%20SHAURYA.png?alt=media&token=f840c8c0-3a41-4fb4-976d-f360dd9b2d53",
     "linkedIn": "https://www.linkedin.com/in/shivam-in/"
   },
-  // {
-  //   "name": "Manali Biswas",
-  //   "position": "WIE Chairperson\nIEEE DTU",
-  //   "image":
-  //       "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fteam%2Fteam_manali.jpg?alt=media&token=7cb70f99-bbac-42cd-b36e-42edd240c256",
-  //   "linkedIn": "https://www.linkedin.com/in/manali-biswas/",
-  // },
   {
-    "name": "Mayank Kr Jarwal",
+    "name": "Manali Biswas",
     "position": "WIE Chairperson\nIEEE DTU",
     "image":
-        "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fleads%2FIMG_20181216_215127%20-%20Mayank%20Kumar%20Jarwal.jpeg?alt=media&token=8d34e605-e98b-4935-b9bc-52eed667cb85",
-    "linkedIn": "www.linkedin.com/in/mayank-kumar-jarwal"
+        "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fteam%2Fteam_manali.jpg?alt=media&token=7cb70f99-bbac-42cd-b36e-42edd240c256",
+    "linkedIn": "https://www.linkedin.com/in/manali-biswas/",
   },
+  // {
+  //   "name": "Mayank Kr Jarwal",
+  //   "position": "WIE Chairperson\nIEEE DTU",
+  //   "image":
+  //       "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fleads%2FIMG_20181216_215127%20-%20Mayank%20Kumar%20Jarwal.jpeg?alt=media&token=8d34e605-e98b-4935-b9bc-52eed667cb85",
+  //   "linkedIn": "www.linkedin.com/in/mayank-kumar-jarwal"
+  // },
   {
     "name": "Piyush Kr. Sahoo",
     "position": "Lead Organizer\nEvent Coordination",
@@ -78,10 +78,17 @@ List<Map<String, String>> ieeeDtuMembers = [
   },
   {
     "name": "Sakshi Panchal",
-    "position": "Lead Organizer (Wie and IR)",
+    "position": "Lead Organizer (WIE and IR)",
     "image":
         "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fleads%2FIMG-20211229-WA0023%20-%202K19_EC_163%20SAKSHI%20SHAILESH%20PANCHAL.jpg?alt=media&token=bb13bd13-39a1-4a01-8f21-355aae442ef7",
     "linkedIn": "https://www.linkedin.com/in/sakshi-panchal"
+  },
+  {
+    "name": "Aeshita Mathur",
+    "position": "Lead Organizer (Outreach)",
+    "image":
+        "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fleads%2Fmeeeee%20-%20Aeshita%20Mathur%202K19-CO-34.jpeg?alt=media&token=dc39a2f4-4330-4b7d-92f0-3803fb641953",
+    "linkedIn": "https://www.linkedin.com/in/aeshita-mathur-584863200/"
   },
   {
     "name": "Sakshi Arora",
@@ -92,13 +99,6 @@ List<Map<String, String>> ieeeDtuMembers = [
   },
 
   {
-    "name": "Aeshita Mathur",
-    "position": "Lead Organizer (Outreach)",
-    "image":
-        "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fleads%2Fmeeeee%20-%20Aeshita%20Mathur%202K19-CO-34.jpeg?alt=media&token=dc39a2f4-4330-4b7d-92f0-3803fb641953",
-    "linkedIn": "https://www.linkedin.com/in/aeshita-mathur-584863200/"
-  },
-  {
     "name": "Supriya Koirala",
     "position": "Lead Organizer (Outreach)",
     "image":
@@ -107,7 +107,7 @@ List<Map<String, String>> ieeeDtuMembers = [
   },
   {
     "name": "Nitya Mittal",
-    "position": "Lead Organizer (Event and Membership Coordinator)",
+    "position": "Lead Organizer (WIE & IR)",
     "image":
         "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fleads%2FIMG_20210828_204157_994%20-%20Nitya%20Mittal.webp?alt=media&token=2bfd8e05-9d20-4704-b0f5-2a30503d747c",
     "linkedIn": "https://www.linkedin.com/in/mittalnitya"

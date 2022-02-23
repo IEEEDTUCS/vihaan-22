@@ -20,7 +20,7 @@ class _DevfolioButtonState extends State<DevfolioButton> {
     final _divElement = DivElement();
     _divElement.classes = ['apply-button'];
     _divElement.dataset = {
-      'hackathon-slug': "vihaan5",
+      'hackathon-slug': "vihaan-5",
       'button-theme': "dark-inverted"
     };
     _divElement.style.height = '44px';
