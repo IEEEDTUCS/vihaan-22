@@ -47,7 +47,7 @@ class IEEEURLS {
   }
 
   static devfolioPage() async {
-    const url = 'https://vihaan5.devfolio.co/';
+    const url = 'https://vihaan-5.devfolio.co/';
     if (await canLaunch(url)) {
       await launch(url);
     } else {
