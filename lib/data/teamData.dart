@@ -194,7 +194,7 @@ List<Map<String, String>> ieeeDtuMembers = [
     "name": "Sidakpreet Singh",
     "position": "Team Lead Videography",
     "image":
-        "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fleads%2FIMG_20211205_164341__01%20-%20Sidakpreet%20Singh.jpg?alt=media&token=2435aaa7-3acc-47b3-8662-7aba88061d29",
+        "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fleads%2FSidakpreet%20Singh.jpg?alt=media&token=5e3cdf90-517c-4629-97ff-ff9dcdbad368",
     "linkedIn": "https://www.linkedin.com/in/sidakpreet-singh-031a52228/"
   },
   {
