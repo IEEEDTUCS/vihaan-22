@@ -32,6 +32,12 @@ Map<String, List<Map<String, String>>> sponsorData = {
           "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fsponsors%2Fsponsor_filecoin.jpg?alt=media&token=0cfc4722-7144-416f-bc79-6b913ac14255",
       "link": "https://filecoin.io/",
     },
+    {
+      "name": "Geeks for Geeks",
+      "image":
+          "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fsponsors%2Fsponsor_gfg.png?alt=media&token=c4673dc8-49cb-4c3a-90ed-4dbb6f4b3684",
+      "link": "https://www.geeksforgeeks.org/",
+    },
   ],
   "bronze": [
     {
@@ -56,6 +62,12 @@ Map<String, List<Map<String, String>>> sponsorData = {
       "name": "Jet Brains",
       "image":
           "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fsponsors%2Fsponsor_jetbrains.jpg?alt=media&token=60df19a2-53b2-43e4-9fc9-d29406cb9847",
+      "link": "https://www.jetbrains.com/",
+    },
+    {
+      "name": "1Password",
+      "image":
+          "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fsponsors%2Fsponsor_1password.jpg?alt=media&token=1c4308cf-fcbb-4dad-8a33-0990de6ec604",
       "link": "https://www.jetbrains.com/",
     },
   ],

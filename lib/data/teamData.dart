@@ -27,13 +27,6 @@ List<Map<String, String>> ieeeDtuMembers = [
         "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fleads%2FsonalBera.jpg?alt=media&token=37e6158e-3861-453c-99d1-830457bd9299",
     "linkedIn": "https://www.linkedin.com/in/shubham-kumar-83b39a168/",
   },
-  // {
-  //   "name": "Kirti Dabas",
-  //   "position": "Vice chairperson CS chapter -IEEE DTU",
-  //   "image":
-  //       "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fleads%2FIMG-20210315-WA0008%20-%20Kirti%20Dabas.jpg?alt=media&token=24405911-e045-4ceb-a538-a4712f18acbe",
-  //   "linkedIn": "https://www.linkedin.com/in/kirti-dabas-a11159179"
-  // },
   {
     "name": "Shivam Shaurya",
     "position": "Chairperson PES-IAS",
@@ -48,13 +41,6 @@ List<Map<String, String>> ieeeDtuMembers = [
         "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fteam%2Fteam_manali.jpg?alt=media&token=7cb70f99-bbac-42cd-b36e-42edd240c256",
     "linkedIn": "https://www.linkedin.com/in/manali-biswas/",
   },
-  // {
-  //   "name": "Mayank Kr Jarwal",
-  //   "position": "WIE Chairperson\nIEEE DTU",
-  //   "image":
-  //       "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fleads%2FIMG_20181216_215127%20-%20Mayank%20Kumar%20Jarwal.jpeg?alt=media&token=8d34e605-e98b-4935-b9bc-52eed667cb85",
-  //   "linkedIn": "www.linkedin.com/in/mayank-kumar-jarwal"
-  // },
   {
     "name": "Piyush Kr. Sahoo",
     "position": "Lead Organizer\nEvent Coordination",
@@ -97,7 +83,6 @@ List<Map<String, String>> ieeeDtuMembers = [
         "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fleads%2FIMG-20220208-WA0121.jpeg?alt=media&token=4f3fe9eb-8e57-4d8f-a38b-e0bf1d1ee8fa",
     "linkedIn": "https://www.linkedin.com/in/sakshi-a-141014194/"
   },
-
   {
     "name": "Supriya Koirala",
     "position": "Lead Organizer (Outreach)",
@@ -128,18 +113,25 @@ List<Map<String, String>> ieeeDtuMembers = [
     "linkedIn": "https://www.linkedin.com/in/pranay-k-50432554/"
   },
   {
-    "name": "Japnoor Singh",
-    "position": "Team Lead Graphic Design",
+    "name": "Ansh Anurag",
+    "position": "Event Team Lead",
     "image":
-        "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fleads%2FJapnoor%20Singh%20-%202k20_EC_102%20JAPNOOR%20SINGH.jpg?alt=media&token=502b2693-f9fa-4a7d-b045-90b0ed16c52b",
-    "linkedIn": "https://www.linkedin.com/in/japnoor-singh-85393a146/"
+        "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fleads%2F156020173_255003010076483_6052928117465092032_n%20-%20IT-139%20Shubham%20Ahlawat.jpg?alt=media&token=25aece4a-19da-4ab7-b5a5-a90995b362da",
+    "linkedIn": "https://www.linkedin.com/in/ansh-anurag-92678416b/"
   },
   {
-    "name": "Shreya Sahu",
-    "position": "Team Lead WIE",
+    "name": "Saujanya Sood",
+    "position": "Event Team Lead",
     "image":
-        "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fleads%2FScreenshot_20220130-173710_Gallery%20-%202K20CO438%20shreya%20sahu.jpg?alt=media&token=93ba44ea-2191-4aa3-9652-58a54d13dcba",
-    "linkedIn": "https://www.linkedin.com/in/shreya-sahu-1463691bb"
+        "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fleads%2F41ACE175-F044-478B-B9A8-94F4224D14B4%20-%20IT-131%20Saujanya%20Sood.jpeg?alt=media&token=b98c24ae-2a66-4207-8f07-d6ff0d0c0b6b",
+    "linkedIn": "https://www.linkedin.com/in/saujanyasood"
+  },
+  {
+    "name": "Anika Passi",
+    "position": "Event Team Lead ",
+    "image":
+        "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fleads%2F11190AC7-DB12-4826-BACA-36EE65DB12BF%20-%202K20%20EN%2014%20Anika%20Passi.jpeg?alt=media&token=00e49f37-f0ce-4aca-9bd2-5b24f220a28d",
+    "linkedIn": "https://www.linkedin.com/in/anikapassi"
   },
   {
     "name": "Rishi Maheshwari",
@@ -156,11 +148,53 @@ List<Map<String, String>> ieeeDtuMembers = [
     "linkedIn": "https://www.linkedin.com/in/nikhil-bhalla-116704206/"
   },
   {
-    "name": "Rishu Yadav",
-    "position": "Team Lead Networking",
+    "name": "Arya Pandey",
+    "position": "Content Team Lead",
     "image":
-        "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fleads%2FRishu%20-%202K20_EE_218%20Rishu%20Yadav.jpeg?alt=media&token=1aa612d4-ae51-4995-a472-1b93cc5b27c3",
-    "linkedIn": "www.linkedin.com/in/rishu-yadav-062676202"
+        "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fleads%2FWhatsApp%20Image%202022-01-30%20at%2017.18.51%20-%20Arya%20Pandey%2031.jpeg?alt=media&token=eef9c71e-bbfb-4f89-805b-983c3a3f7389",
+    "linkedIn": "https://www.linkedin.com/in/arya-pandey-5340651b8/"
+  },
+  {
+    "name": "Aditya Singh Mann",
+    "position": "Content Team Lead",
+    "image":
+        "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fleads%2FScreenshot_20210403-212431%20-%20Aditya%20Singh%20Mann.jpg?alt=media&token=6a97abc2-b70a-4123-9954-fc8b55f92210",
+    "linkedIn": ""
+  },
+  {
+    "name": "Kailash Maurya",
+    "position": "Team Lead Videography",
+    "image":
+        "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fleads%2FIMG_20211230_005306%20-%20Kailash%20Maurya.jpg?alt=media&token=eadfd43c-6312-4d29-8859-ee1380155b7d",
+    "linkedIn": "https://www.linkedin.com/mwlite/in/kailash-maurya-032898208"
+  },
+  {
+    "name": "Sidakpreet Singh",
+    "position": "Team Lead Videography",
+    "image":
+        "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fleads%2FSidakpreet%20Singh.jpg?alt=media&token=5e3cdf90-517c-4629-97ff-ff9dcdbad368",
+    "linkedIn": "https://www.linkedin.com/in/sidakpreet-singh-031a52228/"
+  },
+  {
+    "name": "Japnoor Singh",
+    "position": "Team Lead Graphic Design",
+    "image":
+        "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fleads%2FJapnoor%20Singh%20-%202k20_EC_102%20JAPNOOR%20SINGH.jpg?alt=media&token=502b2693-f9fa-4a7d-b045-90b0ed16c52b",
+    "linkedIn": "https://www.linkedin.com/in/japnoor-singh-85393a146/"
+  },
+  {
+    "name": "Kshitij Singh",
+    "position": "Team Lead Graphic Design",
+    "image":
+        "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fleads%2FIMG_0023%20-%2035_AE%20KSHITIJ%20SINGH.JPG?alt=media&token=ba76da48-3ba7-4c07-917b-d5091aadd20e",
+    "linkedIn": "https://www.linkedin.com/in/kshitij-singh-29b23b201/"
+  },
+  {
+    "name": "Shubham Ahlawat",
+    "position": "Website Coordinator",
+    "image":
+        "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fleads%2FWhatsApp%20Image%202022-01-25%20at%2000.25.45.jpeg?alt=media&token=16f0f569-7632-40c1-9515-f4c3ae9ee4fc",
+    "linkedIn": "https://www.linkedin.com/in/shubham-ahlawat-55432336/",
   },
   {
     "name": "Anirudh Sharma",
@@ -184,25 +218,18 @@ List<Map<String, String>> ieeeDtuMembers = [
     "linkedIn": "https://www.linkedin.com/in/chhitize-kumar-b40358202/"
   },
   {
-    "name": "Kailash Maurya",
-    "position": "Team Lead Videography",
+    "name": "Shreya Sahu",
+    "position": "Team Lead WIE",
     "image":
-        "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fleads%2FIMG_20211230_005306%20-%20Kailash%20Maurya.jpg?alt=media&token=eadfd43c-6312-4d29-8859-ee1380155b7d",
-    "linkedIn": "https://www.linkedin.com/mwlite/in/kailash-maurya-032898208"
+        "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fleads%2FScreenshot_20220130-173710_Gallery%20-%202K20CO438%20shreya%20sahu.jpg?alt=media&token=93ba44ea-2191-4aa3-9652-58a54d13dcba",
+    "linkedIn": "https://www.linkedin.com/in/shreya-sahu-1463691bb"
   },
   {
-    "name": "Sidakpreet Singh",
-    "position": "Team Lead Videography",
+    "name": "Rishu Yadav",
+    "position": "Team Lead Networking",
     "image":
-        "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fleads%2FSidakpreet%20Singh.jpg?alt=media&token=5e3cdf90-517c-4629-97ff-ff9dcdbad368",
-    "linkedIn": "https://www.linkedin.com/in/sidakpreet-singh-031a52228/"
-  },
-  {
-    "name": "Kshitij Singh",
-    "position": "Design Team Lead",
-    "image":
-        "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fleads%2FIMG_0023%20-%2035_AE%20KSHITIJ%20SINGH.JPG?alt=media&token=ba76da48-3ba7-4c07-917b-d5091aadd20e",
-    "linkedIn": "https://www.linkedin.com/in/kshitij-singh-29b23b201/"
+        "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fleads%2FRishu%20-%202K20_EE_218%20Rishu%20Yadav.jpeg?alt=media&token=1aa612d4-ae51-4995-a472-1b93cc5b27c3",
+    "linkedIn": "www.linkedin.com/in/rishu-yadav-062676202"
   },
   {
     "name": "Rishi Raj Thakur",
@@ -217,47 +244,5 @@ List<Map<String, String>> ieeeDtuMembers = [
     "image":
         "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fleads%2FDhruv%20Talan%20networking_vihaan_team%20lead%20-%20Dhruv%20Talan.jpeg?alt=media&token=54ad9e3f-2cce-42c3-9a5a-c3818d297e27",
     "linkedIn": "www.linkedin.com/in/dhruv-talan-852799218"
-  },
-  {
-    "name": "Ansh Anurag",
-    "position": "Event Team Lead",
-    "image":
-        "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fleads%2F156020173_255003010076483_6052928117465092032_n%20-%20IT-139%20Shubham%20Ahlawat.jpg?alt=media&token=25aece4a-19da-4ab7-b5a5-a90995b362da",
-    "linkedIn": "https://www.linkedin.com/in/ansh-anurag-92678416b/"
-  },
-  {
-    "name": "Saujanya Sood",
-    "position": "Event Team Lead",
-    "image":
-        "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fleads%2F41ACE175-F044-478B-B9A8-94F4224D14B4%20-%20IT-131%20Saujanya%20Sood.jpeg?alt=media&token=b98c24ae-2a66-4207-8f07-d6ff0d0c0b6b",
-    "linkedIn": "https://www.linkedin.com/in/saujanyasood"
-  },
-  {
-    "name": "Anika Passi",
-    "position": "Event Team Lead ",
-    "image":
-        "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fleads%2F11190AC7-DB12-4826-BACA-36EE65DB12BF%20-%202K20%20EN%2014%20Anika%20Passi.jpeg?alt=media&token=00e49f37-f0ce-4aca-9bd2-5b24f220a28d",
-    "linkedIn": "https://www.linkedin.com/in/anikapassi"
-  },
-  {
-    "name": "Arya Pandey",
-    "position": "Content Team Lead",
-    "image":
-        "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fleads%2FWhatsApp%20Image%202022-01-30%20at%2017.18.51%20-%20Arya%20Pandey%2031.jpeg?alt=media&token=eef9c71e-bbfb-4f89-805b-983c3a3f7389",
-    "linkedIn": "https://www.linkedin.com/in/arya-pandey-5340651b8/"
-  },
-  {
-    "name": "Aditya Singh Mann",
-    "position": "Content Team Lead",
-    "image":
-        "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fleads%2FScreenshot_20210403-212431%20-%20Aditya%20Singh%20Mann.jpg?alt=media&token=6a97abc2-b70a-4123-9954-fc8b55f92210",
-    "linkedIn": ""
-  },
-  {
-    "name": "Shubham Ahlawat",
-    "position": "Website Coordinator",
-    "image":
-        "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fleads%2FWhatsApp%20Image%202022-01-25%20at%2000.25.45.jpeg?alt=media&token=16f0f569-7632-40c1-9515-f4c3ae9ee4fc",
-    "linkedIn": "https://www.linkedin.com/in/shubham-ahlawat-55432336/",
   },
 ];
