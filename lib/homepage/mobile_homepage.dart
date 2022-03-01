@@ -211,13 +211,31 @@ class _MobileHomePageState extends State<MobileHomePage> {
                             height: 2,
                             color: Colors.black12,
                             margin: const EdgeInsets.fromLTRB(80, 0, 80, 10)),
-                        const Padding(
-                          padding: EdgeInsets.only(bottom: 20),
-                          child: Align(
-                            alignment: Alignment.center,
-                            child:
-                                // RevealingSoon(),
-                                Tracks(),
+                        // const Padding(
+                        //   padding: EdgeInsets.only(bottom: 20),
+                        //   child: Align(
+                        //     alignment: Alignment.center,
+                        //     child:
+                        //         // RevealingSoon(),
+                        //         Tracks(),
+                        //   ),
+                        // ),
+                        SizedBox(
+                          height: MediaQuery.of(context).size.height,
+                          child: const Padding(
+                            padding: EdgeInsets.only(bottom: 20),
+                            child: Align(
+                              alignment: Alignment.center,
+                              child: Text(
+                                "To be revealed soon!",
+                                style: TextStyle(
+                                  fontSize: 56,
+                                  fontFamily: 'NunitoSans',
+                                  fontWeight: FontWeight.bold,
+                                ),
+                                textAlign: TextAlign.center,
+                              ),
+                            ),
                           ),
                         ),
                       ],
