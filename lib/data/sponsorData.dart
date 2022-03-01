@@ -68,8 +68,51 @@ Map<String, List<Map<String, String>>> sponsorData = {
       "name": "1Password",
       "image":
           "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fsponsors%2Fsponsor_1password.jpg?alt=media&token=1c4308cf-fcbb-4dad-8a33-0990de6ec604",
-      "link": "https://www.jetbrains.com/",
+      "link": "https://1password.com/",
     },
+    {
+      "name": "Echo3D",
+      "image":
+          "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fsponsors%2Fecho3D.png?alt=media&token=16e0f063-ba61-4c35-a1c4-ae8bdd5d5e3e",
+      "link": "https://www.echo3d.co/",
+    },
+    {
+      "name": "Gen.XYZ",
+      "image":
+          "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fsponsors%2Fsponsor_xyz.jpg?alt=media&token=c7de8b67-5b48-4c7d-9aae-3014a5062c26",
+      "link": "https://www.gen.xyz/",
+    },
+    {
+      "name": "Clerky",
+      "image":
+          "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fsponsors%2Fsponsor_clerky.jpg?alt=media&token=88e61088-3778-42d0-be6f-21bb413fcb29",
+      "link": "https://www.clerky.com/",
+    },
+    {
+      "name": "Axure",
+      "image":
+          "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fsponsors%2Fsponsor_axure.jpg?alt=media&token=54a26d69-0b08-40b4-931f-09b7bb5e8c80",
+      "link": "https://www.axure.com/",
+    },
+    {
+      "name": "Voiceflow",
+      "image":
+          "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fsponsors%2Fsponsor_voiceflow.png?alt=media&token=336d99bd-2c73-4fd9-b9d3-0a481b7ac6b6",
+      "link": "https://www.voiceflow.com",
+    },
+    {
+      "name": "Heiphen",
+      "image":
+          "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fsponsors%2Fsponsor_heiphen.png?alt=media&token=2b0ecf5e-c0f7-4c56-9dd1-b327e1fbd798",
+      "link": "https://heiphen.com/",
+    },
+    {
+      "name": "Cybrancee",
+      "image":
+          "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fsponsors%2Fsponsor_Cyberancee.png?alt=media&token=48a27165-f5e4-4f09-b830-2ac1371ba70b",
+      "link": "https://cybrancee.com/",
+    },
+    //bronze ho gaya
   ],
   "mediaAndOutreach": [
     {
