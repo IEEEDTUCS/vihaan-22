@@ -116,12 +116,44 @@ Map<String, List<Map<String, String>>> sponsorData = {
   ],
   "mediaAndOutreach": [
     {
-      "name": "Devfolio",
+      "name": "Campus Memories",
       "image":
-          "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fsponsors%2FComing%20Soon.jpg?alt=media&token=567e52d7-0761-4193-9551-1c99387735ec",
-      "link": "https://vihaan.ieeedtu.in/",
+          "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fsponsors%2Fsponsor_cm.jpeg?alt=media&token=428dba98-9983-48ee-b197-34ba371db004",
+      "link":
+          "https://www.linkedin.com/company/campus-memories?originalSubdomain=in",
+    },
+    {
+      "name": "HC Global Advisors India Private Limited",
+      "image":
+          "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fsponsors%2Fsponsor_hcglobal.jpeg?alt=media&token=3b81a1c4-9953-463e-8df3-5845bc2ca597",
+      "link": "https://www.linkedin.com/company/hcglobal/?originalSubdomain=in",
+    },
+    {
+      "name": "Youth Incorporated",
+      "image":
+          "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fsponsors%2Fsponsor_yi.png?alt=media&token=8bb2c7a8-3eb8-4030-9ff8-7a1bf3b76578",
+      "link": "https://youthincmag.com/",
+    },
+    {
+      "name": "Ed Times",
+      "image":
+          "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fsponsors%2Fsponsor_EDTimes.jpeg?alt=media&token=04ca0a1b-320e-4bf4-b366-a00fb04f991a",
+      "link": "https://edtimes.in/",
+    },
+    {
+      "name": "The Education Tree",
+      "image":
+          "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fsponsors%2Fsponsor_TheEDTree.png?alt=media&token=4e986e2c-fc61-478a-89e4-161bc9000a91",
+      "link": "https://www.theeducationtree.com/",
+    },
+    {
+      "name": "Campus Times Pune",
+      "image":
+          "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fsponsors%2Fsponsor_ct.png?alt=media&token=6d209d5d-2923-4760-bb88-7239cca5b290",
+      "link": "https://www.campustimespune.com/",
     },
   ],
+  //itne sponsors andhi reach aayegi ab
   "community": [
     {
       "name": "Devfolio",

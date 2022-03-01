@@ -175,12 +175,12 @@ class Sponsors extends StatelessWidget {
           //   ),
           // ),
           const SizedBox(height: 15),
-          // buildSponsorTitle(
-          //   title: 'MEDIA AND OUTREACH PARTNER',
-          //   fnt: 30.00,
-          //   clr: Colors.white,
-          // ),
-          // mediaOutreachSponsorsGrid(width, height),
+          buildSponsorTitle(
+            title: 'MEDIA AND OUTREACH PARTNERS',
+            fnt: 30.00,
+            clr: Colors.white,
+          ),
+          mediaOutreachSponsorsGrid(width, height),
         ],
       ),
     );
