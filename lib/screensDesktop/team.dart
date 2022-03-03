@@ -1,13 +1,28 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
+import 'package:scroll_to_index/scroll_to_index.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:vihaan_2022/data/teamData.dart';
 
 import '../widgets/vihaan_icons_icons.dart';
 
-class TeamSection extends StatelessWidget {
+// TODO: Alag panna banana h jo mujhe nhi aata kaise krte h :)
+class TeamSection extends StatefulWidget {
   const TeamSection({Key? key}) : super(key: key);
+
+  @override
+  State<TeamSection> createState() => _TeamSectionState();
+}
+
+class _TeamSectionState extends State<TeamSection> {
+  late AutoScrollController _controller;
+  final scrollDirection = Axis.vertical;
+  @override
+  void initState() {
+    _controller = AutoScrollController(axis: scrollDirection);
+    super.initState();
+  }
 
   Widget profileCard({
     required String name,
@@ -106,42 +121,62 @@ class TeamSection extends StatelessWidget {
       );
     }
 
-    return Column(
-      children: [
-        Text(
-          'OUR TEAM',
-          style: TextStyle(
-              fontFamily: 'NunitoSans',
-              fontSize: max(width * 0.075, 60),
-              color: Colors.white,
-              fontWeight: FontWeight.w700),
-        ),
-        Container(
-            height: 2,
-            color: Colors.black12,
-            margin: const EdgeInsets.fromLTRB(80, 0, 80, 10)),
-        Container(
-          margin: EdgeInsets.symmetric(horizontal: (width >= 800) ? 32 : 8),
-          child: GridView.count(
-            crossAxisSpacing: (width >= 800) ? (width >= 1000 ? 48 : 28) : 8,
-            primary: false,
-            shrinkWrap: true,
-            crossAxisCount: (width > 350)
-                ? ((width > 600) ? ((width >= 800) ? 4 : 3) : 2)
-                : 1,
-            childAspectRatio: (itemWidth / itemHeight),
-            children: [
-              for (int i = 0; i < ieeeDtuMembers.length; i++)
-                profileCard(
-                  name: ieeeDtuMembers[i]["name"].toString(),
-                  position: ieeeDtuMembers[i]["position"].toString(),
-                  imageAddress: ieeeDtuMembers[i]["image"].toString(),
-                  linkedInAddress: ieeeDtuMembers[i]["linkedIn"].toString(),
+    return Scaffold(
+      body: SingleChildScrollView(
+        controller: _controller,
+        child: Column(
+          children: [
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                FloatingActionButton(
+                  backgroundColor: Colors.black,
+                  onPressed: () {
+                    Navigator.pop(context);
+                  },
+                  child: const Icon(
+                    Icons.arrow_back,
+                  ),
                 ),
-            ],
-          ),
+                Text(
+                  'OUR TEAM',
+                  style: TextStyle(
+                      fontFamily: 'NunitoSans',
+                      fontSize: max(width * 0.075, 60),
+                      color: Colors.black,
+                      fontWeight: FontWeight.w700),
+                ),
+              ],
+            ),
+            Container(
+                height: 2,
+                color: Colors.black12,
+                margin: const EdgeInsets.fromLTRB(80, 0, 80, 10)),
+            Container(
+              margin: EdgeInsets.symmetric(horizontal: (width >= 800) ? 32 : 8),
+              child: GridView.count(
+                crossAxisSpacing:
+                    (width >= 800) ? (width >= 1000 ? 48 : 28) : 8,
+                primary: false,
+                shrinkWrap: true,
+                crossAxisCount: (width > 350)
+                    ? ((width > 600) ? ((width >= 800) ? 4 : 3) : 2)
+                    : 1,
+                childAspectRatio: (itemWidth / itemHeight),
+                children: [
+                  for (int i = 0; i < ieeeDtuMembers.length; i++)
+                    profileCard(
+                      name: ieeeDtuMembers[i]["name"].toString(),
+                      position: ieeeDtuMembers[i]["position"].toString(),
+                      imageAddress: ieeeDtuMembers[i]["image"].toString(),
+                      linkedInAddress: ieeeDtuMembers[i]["linkedIn"].toString(),
+                    ),
+                ],
+              ),
+            ),
+          ],
         ),
-      ],
+      ),
     );
   }
 }

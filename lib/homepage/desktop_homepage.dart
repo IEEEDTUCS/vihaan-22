@@ -9,7 +9,6 @@ import 'package:vihaan_2022/screensDesktop/faq.dart';
 import 'package:vihaan_2022/screensDesktop/judges.dart';
 import 'package:vihaan_2022/screensDesktop/landing_page.dart';
 import 'package:vihaan_2022/screensDesktop/sponsors.dart';
-import 'package:vihaan_2022/screensDesktop/team.dart';
 import 'package:vihaan_2022/screensDesktop/timeline_section.dart';
 import 'package:vihaan_2022/screensDesktop/tracks.dart';
 import 'package:vihaan_2022/widgets/desktop_navbar.dart';
@@ -232,16 +231,16 @@ class _DesktopHomePageState extends State<DesktopHomePage> {
                     child: const Faq(),
                   ),
                 ),
+                // _wrapScrollTag(
+                //   index: 8,
+                //   child: Container(
+                //     width: MediaQuery.of(context).size.width,
+                //     color: Colors.greenAccent,
+                //     child: const Align(child: TeamSection()),
+                //   ),
+                // ),
                 _wrapScrollTag(
                   index: 8,
-                  child: Container(
-                    width: MediaQuery.of(context).size.width,
-                    color: Colors.greenAccent,
-                    child: const Align(child: TeamSection()),
-                  ),
-                ),
-                _wrapScrollTag(
-                  index: 9,
                   child: Container(
                     width: MediaQuery.of(context).size.width,
                     color: Colors.black12,

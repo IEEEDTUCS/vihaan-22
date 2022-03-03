@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:scroll_to_index/scroll_to_index.dart';
+import 'package:vihaan_2022/screensDesktop/team.dart';
 
 class DesktopNavbar extends StatefulWidget {
   final AutoScrollController controller;
@@ -272,7 +273,10 @@ class _DesktopNavbarState extends State<DesktopNavbar> {
             });
           },
           onTap: () {
-            widget.controller.scrollToIndex(8);
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => const TeamSection()),
+            );
           },
           child: Column(
             mainAxisSize: MainAxisSize.min,

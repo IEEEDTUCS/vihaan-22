@@ -245,4 +245,25 @@ List<Map<String, String>> ieeeDtuMembers = [
         "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fleads%2FDhruv%20Talan%20networking_vihaan_team%20lead%20-%20Dhruv%20Talan.jpeg?alt=media&token=54ad9e3f-2cce-42c3-9a5a-c3818d297e27",
     "linkedIn": "www.linkedin.com/in/dhruv-talan-852799218"
   },
+  {
+    "name": "Divyam Gupta",
+    "position": "Team Lead Networking",
+    "image":
+        "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fleads%2Fdivyam_picture.jpeg?alt=media&token=20294080-53c3-4f7b-b1ed-fcd145260d53",
+    "linkedIn": "https://www.linkedin.com/in/divyam-gupta-209b81193"
+  },
+  {
+    "name": "Aman Raj",
+    "position": "Team Lead Corporate",
+    "image":
+        "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fleads%2FScreenshot%202022-03-04%20at%202.07.28%20AM.png?alt=media&token=f8490a33-cda9-434f-b35d-88e7de38414f",
+    "linkedIn": "https://www.linkedin.com/in/aman-raj-38b072218/"
+  },
+  {
+    "name": "Ankur",
+    "position": "Team Lead Corporate",
+    "image":
+        "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fleads%2Fankur_image.jpeg?alt=media&token=2faaaead-03b5-404b-9b03-a50d8b4a383f",
+    "linkedIn": ""
+  },
 ];
