@@ -14,6 +14,8 @@ import 'package:vihaan_2022/widgets/desktop_navbar.dart';
 import 'package:vihaan_2022/widgets/fancy_background_app.dart';
 import 'package:vihaan_2022/widgets/vihaan_icons_icons.dart';
 
+import '../screensDesktop/tracks.dart';
+
 class DesktopHomePage extends StatefulWidget {
   const DesktopHomePage({Key? key}) : super(key: key);
 
@@ -76,7 +78,7 @@ class _DesktopHomePageState extends State<DesktopHomePage> {
                   index: 2,
                   child: Container(
                     width: MediaQuery.of(context).size.width,
-                    height: MediaQuery.of(context).size.height * 0.7,
+                    // height: MediaQuery.of(context).size.height * 0.7,
                     color: const Color.fromARGB(255, 209, 253, 172),
                     child: Column(
                       children: [
@@ -99,15 +101,15 @@ class _DesktopHomePageState extends State<DesktopHomePage> {
                           padding: EdgeInsets.only(bottom: 20),
                           child: Align(
                             alignment: Alignment.center,
-                            // child: Tracks(),
-                            child: Text(
-                              "Tracks to be revealed soon!",
-                              style: TextStyle(
-                                fontSize: 56,
-                                fontFamily: 'NunitoSans',
-                                fontWeight: FontWeight.bold,
-                              ),
-                            ),
+                            child: Tracks(),
+                            // child: Text(
+                            //   "Tracks to be revealed soon!",
+                            //   style: TextStyle(
+                            //     fontSize: 56,
+                            //     fontFamily: 'NunitoSans',
+                            //     fontWeight: FontWeight.bold,
+                            //   ),
+                            // ),
                           ),
                         ),
                       ],

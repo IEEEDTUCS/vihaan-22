@@ -123,8 +123,10 @@ class _MobileHomePageState extends State<MobileHomePage> {
             ListTile(
               title: const Text('Team'),
               onTap: () {
-                controller.scrollToIndex(8);
-                Navigator.pop(context);
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const TeamSection()),
+                );
               },
             ),
             ListTile(
@@ -211,33 +213,33 @@ class _MobileHomePageState extends State<MobileHomePage> {
                             height: 2,
                             color: Colors.black12,
                             margin: const EdgeInsets.fromLTRB(80, 0, 80, 10)),
-                        // const Padding(
-                        //   padding: EdgeInsets.only(bottom: 20),
-                        //   child: Align(
-                        //     alignment: Alignment.center,
-                        //     child:
-                        //         // RevealingSoon(),
-                        //         Tracks(),
-                        //   ),
-                        // ),
-                        SizedBox(
-                          height: MediaQuery.of(context).size.height,
-                          child: const Padding(
-                            padding: EdgeInsets.only(bottom: 20),
-                            child: Align(
-                              alignment: Alignment.center,
-                              child: Text(
-                                "To be revealed soon!",
-                                style: TextStyle(
-                                  fontSize: 56,
-                                  fontFamily: 'NunitoSans',
-                                  fontWeight: FontWeight.bold,
-                                ),
-                                textAlign: TextAlign.center,
-                              ),
-                            ),
+                        const Padding(
+                          padding: EdgeInsets.only(bottom: 20),
+                          child: Align(
+                            alignment: Alignment.center,
+                            child:
+                                // RevealingSoon(),
+                                Tracks(),
                           ),
                         ),
+                        // SizedBox(
+                        //   height: MediaQuery.of(context).size.height,
+                        //   child: const Padding(
+                        //     padding: EdgeInsets.only(bottom: 20),
+                        //     child: Align(
+                        //       alignment: Alignment.center,
+                        //       child: Text(
+                        //         "To be revealed soon!",
+                        //         style: TextStyle(
+                        //           fontSize: 56,
+                        //           fontFamily: 'NunitoSans',
+                        //           fontWeight: FontWeight.bold,
+                        //         ),
+                        //         textAlign: TextAlign.center,
+                        //       ),
+                        //     ),
+                        //   ),
+                        // ),
                       ],
                     ),
                   ),
@@ -385,14 +387,14 @@ class _MobileHomePageState extends State<MobileHomePage> {
                     child: const Faq(),
                   ),
                 ),
-                _wrapScrollTag(
-                  index: 8,
-                  child: Container(
-                    width: MediaQuery.of(context).size.width,
-                    color: Colors.greenAccent,
-                    child: const TeamSection(),
-                  ),
-                ),
+                // _wrapScrollTag(
+                //   index: 8,
+                //   child: Container(
+                //     width: MediaQuery.of(context).size.width,
+                //     color: Colors.greenAccent,
+                //     child: const TeamSection(),
+                //   ),
+                // ),
                 _wrapScrollTag(
                   index: 9,
                   child: Container(

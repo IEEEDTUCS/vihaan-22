@@ -38,14 +38,13 @@ List<Map<String, String>> trackDetails = [
     "image":
         "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Ftracks%2F17.png?alt=media&token=88fe9563-5e3c-4705-b610-4c269aaf0e09",
     "detail":
-        "FinTech is an emerging industry that deals with the amalgamation of traditional Financial Techniques with Cutting-edge technology to improve upon the delivery and execution. Online Medical Insurance, Fintech startups like Recko etc are all instances where humanity has been benefited with this up and coming industry."
+        "In today’s world, security is not just restricted to CCTV and Passwords. The very recent Facebook conspiracy has highlighted the importance of data security. Cyber security and the entwinement of data security with nano-technology has made vast contributions to mankind, and it is certainly a field that has infinite potential."
   },
   {
     "name": "Haptics Technology",
     "image":
-        "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Ftracks%2F12.png?alt=media&token=03f41f7d-3a9b-4847-ba43-0683fad80498",
-    "detail":
-        "FinTech is an emerging industry that deals with the amalgamation of traditional Financial Techniques with Cutting-edge technology to improve upon the delivery and execution. Online Medical Insurance, Fintech startups like Recko etc are all instances where humanity has been benefited with this up and coming industry."
+        "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Ftracks%2F18.png?alt=media&token=39e292ce-dbe8-446f-9468-654b4339b7a4",
+    "detail": "" //TODO: add content
   },
   {
     "name": "Open  Innovation",

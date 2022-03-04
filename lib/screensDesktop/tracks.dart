@@ -74,7 +74,7 @@ class Tracks extends StatelessWidget {
 
     final width = MediaQuery.of(context).size.width;
     return Padding(
-      padding: EdgeInsets.symmetric(horizontal: width * 0.025, vertical: 16),
+      padding: EdgeInsets.symmetric(horizontal: width * 0.025, vertical: 0),
       child: Column(
         children: <Widget>[
           const SizedBox(height: 10),
