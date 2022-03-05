@@ -102,6 +102,23 @@ class Sponsors extends StatelessWidget {
               SizedBox(
                 height: 100,
                 child: buildSponsorTitle(
+                  title: 'TITLE',
+                  fnt: titleFont,
+                  clr: Colors.white,
+                ),
+              ),
+              Padding(
+                padding: EdgeInsets.symmetric(
+                    horizontal: (width > 800) ? 100.00 : 20.0),
+                child: titleSponsorsGrid(width, height),
+              ),
+            ],
+          ),
+          Column(
+            children: [
+              SizedBox(
+                height: 100,
+                child: buildSponsorTitle(
                     title: 'GOLD', fnt: titleFont, clr: Colors.amber.shade500),
               ),
               Padding(
