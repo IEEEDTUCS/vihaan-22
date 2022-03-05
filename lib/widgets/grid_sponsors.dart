@@ -101,6 +101,36 @@ Widget silverSponsorsGrid(
   );
 }
 
+Widget titleSponsorsGrid(
+  double width,
+  double height,
+) {
+  return GridView.count(
+    crossAxisSpacing: (width >= 800) ? (width >= 1000 ? 48 : 28) : 8,
+    primary: false,
+    shrinkWrap: true,
+    crossAxisCount: (width > 350)
+        ? ((width > 600)
+            ? ((width >= 800)
+                ? (width >= 1000)
+                    ? 3
+                    : 3
+                : 2)
+            : 2)
+        : 2,
+    children: [
+      for (int i = 0; i < sponsorData["title"]!.length; i++)
+        buildSponsorCard(
+          bx: (width >= 800) ? width * 0.125 : width * 0.2,
+          mrl: 4,
+          mrr: 4,
+          url: sponsorData["title"]![i]["image"].toString(),
+          link: sponsorData["title"]![i]["link"].toString(),
+        ),
+    ],
+  );
+}
+
 Widget goldSponsorsGrid(
   double width,
   double height,

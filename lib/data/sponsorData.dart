@@ -1,5 +1,19 @@
 Map<String, List<Map<String, String>>> sponsorData = {
+  "title": [
+    {
+      "name": "IEEE CS Society",
+      "image":
+          "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fsponsors%2Fsponsor_CSchapter.png?alt=media&token=97ac6147-9b98-4995-b3b1-037428e7cc4e",
+      "link": "https://www.computer.org/",
+    },
+  ],
   "gold": [
+    {
+      "name": "Coding Blocks",
+      "image":
+          "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fsponsors%2Fsponsor_codingblocks.jpg?alt=media&token=aa234ad3-275e-451b-8ad8-81231922682e",
+      "link": "https://codingblocks.com/",
+    },
     {
       "name": "Devfolio",
       "image":
@@ -32,14 +46,20 @@ Map<String, List<Map<String, String>>> sponsorData = {
           "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fsponsors%2Fsponsor_filecoin.jpg?alt=media&token=0cfc4722-7144-416f-bc79-6b913ac14255",
       "link": "https://filecoin.io/",
     },
-    {
-      "name": "Geeks for Geeks",
-      "image":
-          "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fsponsors%2Fsponsor_gfg.png?alt=media&token=c4673dc8-49cb-4c3a-90ed-4dbb6f4b3684",
-      "link": "https://www.geeksforgeeks.org/",
-    },
   ],
   "bronze": [
+    {
+      "name": "Digital Ocean",
+      "image":
+          "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fsponsors%2Fsponsor_digitalocean.jpg?alt=media&token=fbd01eb2-37be-43d6-ac5f-4c1ab5246e17",
+      "link": "https://www.digitalocean.com/",
+    },
+    {
+      "name": "Agora",
+      "image":
+          "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fsponsors%2Fsponsor_agora.png?alt=media&token=23a010e8-930c-4b3e-a275-9c29c869e725",
+      "link": "https://agora.io/",
+    },
     {
       "name": "Rosenfeld",
       "image":
@@ -111,6 +131,12 @@ Map<String, List<Map<String, String>>> sponsorData = {
       "image":
           "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fsponsors%2Fsponsor_Cyberancee.png?alt=media&token=48a27165-f5e4-4f09-b830-2ac1371ba70b",
       "link": "https://cybrancee.com/",
+    },
+    {
+      "name": "GeneieGig",
+      "image":
+          "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fsponsors%2Fsponsor_GINIEPIG.png?alt=media&token=e8b33ddb-7bbf-4b72-adb4-5cfa113bf038",
+      "link": "https://www.geniegig.com/",
     },
     //bronze ho gaya
   ],
