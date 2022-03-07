@@ -109,17 +109,16 @@ class _TeamSectionState extends State<TeamSection> {
         ? ((width > 600) ? ((width >= 800) ? width / 4 : width / 3) : width / 2)
         : width;
 
-    List<Widget> teamMemberInfo = [];
-    for (int i = 0; i < ieeeDtuMembers.length; i++) {
-      teamMemberInfo.add(
-        profileCard(
-          name: ieeeDtuMembers[i]["name"].toString(),
-          position: ieeeDtuMembers[i]["position"].toString(),
-          imageAddress: ieeeDtuMembers[i]["image"].toString(),
-          linkedInAddress: ieeeDtuMembers[i]["linkedIn"].toString(),
-        ),
-      );
-    }
+    // for (int i = 0; i < ieeeDtuMembers.length; i++) {
+    //   teamMemberInfo.add(
+    //     profileCard(
+    //       name: ieeeDtuMembers[i]["name"].toString(),
+    //       position: ieeeDtuMembers[i]["position"].toString(),
+    //       imageAddress: ieeeDtuMembers[i]["image"].toString(),
+    //       linkedInAddress: ieeeDtuMembers[i]["linkedIn"].toString(),
+    //     ),
+    //   );
+    // }
 
     return Scaffold(
       body: SingleChildScrollView(
@@ -148,10 +147,81 @@ class _TeamSectionState extends State<TeamSection> {
                 ),
               ],
             ),
+
             Container(
                 height: 2,
                 color: Colors.black12,
                 margin: const EdgeInsets.fromLTRB(80, 0, 80, 10)),
+            Text(
+              'Council Members',
+              style: TextStyle(
+                  fontFamily: 'NunitoSans',
+                  fontSize: max(width * 0.025, 30),
+                  color: Colors.black,
+                  fontWeight: FontWeight.w700),
+            ),
+            Container(
+              margin: EdgeInsets.symmetric(horizontal: (width >= 800) ? 32 : 8),
+              child: GridView.count(
+                crossAxisSpacing:
+                    (width >= 800) ? (width >= 1000 ? 48 : 28) : 8,
+                primary: false,
+                shrinkWrap: true,
+                crossAxisCount: (width > 350)
+                    ? ((width > 600) ? ((width >= 800) ? 4 : 3) : 2)
+                    : 1,
+                childAspectRatio: (itemWidth / itemHeight),
+                children: [
+                  for (int i = 0; i < councilMembers.length; i++)
+                    profileCard(
+                      name: councilMembers[i]["name"].toString(),
+                      position: councilMembers[i]["position"].toString(),
+                      imageAddress: councilMembers[i]["image"].toString(),
+                      linkedInAddress: councilMembers[i]["linkedIn"].toString(),
+                    ),
+                ],
+              ),
+            ),
+            Text(
+              'Lead Organizers',
+              style: TextStyle(
+                  fontFamily: 'NunitoSans',
+                  fontSize: max(width * 0.025, 30),
+                  color: Colors.black,
+                  fontWeight: FontWeight.w700),
+            ),
+            //Lead Organizers
+            Container(
+              margin: EdgeInsets.symmetric(horizontal: (width >= 800) ? 32 : 8),
+              child: GridView.count(
+                crossAxisSpacing:
+                    (width >= 800) ? (width >= 1000 ? 48 : 28) : 8,
+                primary: false,
+                shrinkWrap: true,
+                crossAxisCount: (width > 350)
+                    ? ((width > 600) ? ((width >= 800) ? 4 : 3) : 2)
+                    : 1,
+                childAspectRatio: (itemWidth / itemHeight),
+                children: [
+                  for (int i = 0; i < leadOrganizers.length; i++)
+                    profileCard(
+                      name: leadOrganizers[i]["name"].toString(),
+                      position: leadOrganizers[i]["position"].toString(),
+                      imageAddress: leadOrganizers[i]["image"].toString(),
+                      linkedInAddress: leadOrganizers[i]["linkedIn"].toString(),
+                    ),
+                ],
+              ),
+            ),
+            Text(
+              'Team Leads',
+              style: TextStyle(
+                  fontFamily: 'NunitoSans',
+                  fontSize: max(width * 0.025, 30),
+                  color: Colors.black,
+                  fontWeight: FontWeight.w700),
+            ),
+            //Team Leads
             Container(
               margin: EdgeInsets.symmetric(horizontal: (width >= 800) ? 32 : 8),
               child: GridView.count(
@@ -173,7 +243,7 @@ class _TeamSectionState extends State<TeamSection> {
                     ),
                 ],
               ),
-            ),
+            )
           ],
         ),
       ),
