@@ -74,11 +74,11 @@ class _Faq extends State<Faq> {
               'Wait so am I required to know coding? I don’t know if I’m skilled enough.',
           answer:
               'Participation is the essential part, learning is the goal. You might need a basic idea of coding though on the development side.'),
-      makeUI(
-          color: Colors.orange,
-          question: 'Is there any need for me to come to campus for this?',
-          answer:
-              'Yes, Vihaan this year is on a completely offline event.You have to come to the campus for the same.'),
+      // makeUI(
+      //     color: Colors.orange,
+      //     question: 'Is there any need for me to come to campus for this?',
+      //     answer:
+      //         'No, Vihaan this year is on a completely online platform. You may compete in the comfort of your home.'),
       makeUI(
           color: Colors.green,
           question: 'Am I required to pay anything?',
