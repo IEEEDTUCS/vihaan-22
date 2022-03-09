@@ -3,7 +3,7 @@ Map<String, List<Map<String, String>>> sponsorData = {
     {
       "name": "IEEE CS Society",
       "image":
-          "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fsponsors%2Fsponsor_CSchapter.png?alt=media&token=97ac6147-9b98-4995-b3b1-037428e7cc4e",
+          "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fsponsors%2FIEEE%20CS.png?alt=media&token=ba25167b-0e32-4056-bd70-bbd168d40555",
       "link": "https://www.computer.org/",
     },
   ],
