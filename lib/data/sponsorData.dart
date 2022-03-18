@@ -3,7 +3,7 @@ Map<String, List<Map<String, String>>> sponsorData = {
     {
       "name": "IEEE CS Society",
       "image":
-          "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fsponsors%2FIEEE%20CS.png?alt=media&token=ba25167b-0e32-4056-bd70-bbd168d40555",
+          "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fsponsors%2FIEEE%20CS%20DS.jpg?alt=media&token=4880d52a-2a7b-4502-9d94-3a58276facc5",
       "link": "https://www.computer.org/",
     },
   ],
@@ -45,6 +45,12 @@ Map<String, List<Map<String, String>>> sponsorData = {
       "image":
           "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fsponsors%2Fsponsor_filecoin.jpg?alt=media&token=0cfc4722-7144-416f-bc79-6b913ac14255",
       "link": "https://filecoin.io/",
+    },
+    {
+      "name": "Alan AI",
+      "image":
+          "https://firebasestorage.googleapis.com/v0/b/vihaan2021-b1b86.appspot.com/o/images%2Fsponsors%2Falanai.jpg?alt=media&token=933e0db1-2c14-4452-9c99-61f7cb64b0c7",
+      "link": "https://alan.app/",
     },
   ],
   "bronze": [
